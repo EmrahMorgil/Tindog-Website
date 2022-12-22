@@ -1,0 +1,193 @@
+/* title (başlık) */
+#title {
+  background-color: #ff4c68;
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 3%;
+}
+
+#title h1 {
+  font-size: 78px;
+  line-height: 1.5;
+  color: white;
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.phone {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 10%;
+}
+
+.connection {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  padding: 2% 5%;
+}
+
+/* features (özellik) */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+#features h3 {
+  font-family: "Montserrat-bold"
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+.fa-4x {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
+}
+
+.fa-4x:hover {
+  color: red;
+}
+
+/* testimonials (referanslar) */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+#testimonials em {
+  color: white;
+  padding-left: 20px;
+}
+
+#testimonials h2 {
+  font-family: "Montserrat";
+  font-size: 3em;
+  color: white;
+  padding: 4% 15% 2% 15%;
+}
+
+#testimonials img {
+  width: 7em;
+  height: 7em;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press (referans logoları) */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 4% 15%;
+}
+
+#press img {
+  width: 13em;
+  height: 5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* pricing (fiyat) */
+#pricing {
+  text-align: center;
+}
+
+.middle-header {
+  font-family: "Montserrat";
+  font-size: 3.5em;
+  color: black;
+  margin-top: 2em;
+}
+
+.middle-text {
+  color: #8f8f8f;
+  margin-bottom: 4em;
+}
+
+.container {
+  margin-bottom: 15em;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+#pricing p {
+  color: #8f8f8f;
+}
+
+/* cta (indirme kısmı) */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10em 0px 3em;
+}
+
+#cta h3 {
+  font-size: 60px;
+  line-height: 1.5;
+  color: white;
+  font-family: "Montserrat";
+}
+
+#cta button {
+  margin: 5% 0.3% 5% 0.3%;
+  padding: 1% 2%;
+}
+
+#footer {
+  text-align: center;
+  margin: 10em 0em;
+}
+
+#footer p {
+  margin-top: 15px;
+  color: #8f8f8f;
+}
+
+.bottom-icons {
+  margin: 8px;
+}
+
+/* responsive  */
+@media (max-width: 1200px) {
+  .phone {
+    position: static;
+    width: 300px;
+    transform: rotate(0deg);
+    margin: 0px;
+  }
+
+  body {
+    text-align: center;
+  }
+}
