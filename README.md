@@ -1,1 +1,1 @@
-https://emrahmorgil.github.io/tindog/
+https://emrahmorgil.github.io/Tindog-Website/
